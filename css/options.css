@@ -1,0 +1,91 @@
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=latin,cyrillic);
+
+body {
+    background: #F4F5FB;
+    font-family: "PT Sans", sans-serif;
+    font-size: 14px;
+    margin: 0;
+}
+
+a, select, input {
+    outline: none;
+}
+
+.wrapper {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    width: 500px;
+    margin-left: -250px;
+    background: #fff;
+    border: 1px solid #e8ebef;
+}
+
+.header {
+    padding: 15px;
+    border-bottom: 1px solid #e8ebef;
+}
+
+.content {
+    padding: 20px;
+    background: #fafafa;
+}
+
+.option {
+    line-height: 28px;
+    font-size: 16px;
+    border-bottom: 1px solid #e8ebef;
+    padding-bottom: 20px;
+}
+
+.option:last-child {
+    border-bottom: 0;
+    padding-top: 20px;
+    padding-bottom: 0;
+}
+
+.option span {
+    float: right;
+    border: 2px solid #ecf0f1;
+    background: #fff;
+    padding: 3px;
+    border-radius: 3px;
+}
+
+.option select {
+    height: 28px;
+    float: right;
+    border: 2px solid #ecf0f1;
+    padding: 5px;
+    border-radius: 3px;
+    min-width: 130px;
+    background: #fff;
+}
+
+.footer {
+    border-top: 1px solid #e8ebef;
+    padding: 10px;
+}
+
+.footer .site-title {
+    display: inline-block;
+    text-align: left;
+}
+
+.footer .site-url {
+    float: right;
+    display: inline-block;
+    text-align: right;
+}
+
+.footer .site-url a {
+    color: #3B99FC;
+    text-decoration: none;
+}
+
+.footer .site-url a:hover {
+    color: #3B99FC;
+    text-decoration: underline;
+}
+
+

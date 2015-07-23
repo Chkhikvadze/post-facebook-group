@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+
+  "name": "Post in Facebook",
+  "description": "Post linq in Facebook Group",
+  "version": "1.4",
+
+  "browser_action": {
+  	"default_icon": "images/icon-19.png",
+    "default_title": "Post in Facebook",
+    "default_popup": "popup.html"
+  },
+
+  "permissions": [
+    "tabs",
+    "notifications",
+    "*://*/*"
+  ],
+
+  "web_accessible_resources": ["popup.js", "fbScript.js"],
+  
+  "icons": { "128": "images/icon-128.png",
+  			 "48": "images/icon-48.png",
+  			 "16": "images/icon-16.png" }
+}
