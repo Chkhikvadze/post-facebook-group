@@ -6,4 +6,4 @@ Post active tab link in Facebook Group.
 
 
 ####settings
-![flasb](https://github.com/Chkhikvadze/post-facebook-group/blob/master/screenshot/settings.png "Starter template")
+![flasb](https://github.com/Chkhikvadze/post-facebook-group/blob/master/settings.png "Starter template")
