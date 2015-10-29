@@ -36,6 +36,7 @@ function loginfacebook(callback) {
         return;
     }
 
+    console.log(localStorage["appId"]);
     var url = "https://www.facebook.com/dialog/oauth?"
         + "display=popup&"
         + "client_id=" + localStorage["appId"] + "&"
