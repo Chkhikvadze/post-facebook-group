@@ -1,4 +1,3 @@
-# post-facebook-group
 Post Facebook Group
 ==================
 
